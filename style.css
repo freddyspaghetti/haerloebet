@@ -2,6 +2,27 @@ img {
     width: 100%;
 }
 
+
+
+/*FORSIDE*/
+
+#forside {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#forside .menu {
+    top: 0vw;
+    right: 40vw;
+
+}
+
+#forside .splash {
+    width: 50%;
+    margin: auto;
+}
+
+
 #forside .container {
     display: flex;
     flex-wrap: wrap;
@@ -9,8 +30,159 @@ img {
 
 #forside .column {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 350px;
     display: flex;
     flex-direction: row;
+    margin: 20px;
 
 }
+
+.txt {
+    align-content: center;
+    display: flex;
+    color: #fff;
+    position: absolute;
+}
+
+
+#forside .felt1 {
+    background-image: url(pictures/tilmelding.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#forside .felt2 {
+    background-image: url(pictures/program_og_rute.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forside .felt3 {
+    background-image: url(pictures/sponsorer.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forside .felt4 {
+    background-image: url(pictures/vaer_med.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forside .felt5 {
+    background-image: url(pictures/resultater.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forside .felt6 {
+    background-image: url(pictures/stoet_haerloebet.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forside .felt7 {
+    background-image: url(pictures/galleri.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forside .felt8 {
+    background-image: url(pictures/om_haerloebet.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forside .felt9 {
+    background-image: url(pictures/kontakt.jpg);
+    background-size: 100%;
+    width: 360px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h3 {
+    font-size: 2rem;
+    font-family: facto,
+        sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a {
+    font-family: facto,
+        sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+}
+
+a:hover {
+    color: green;
+}
+
+/*FONTS
+
+
+font-family: facto,
+sans-serif;
+font-weight: 300;
+font-style: normal;
+
+font-family: facto,
+sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: facto,
+sans-serif;
+font-weight: 500;
+font-style: normal;
+
+font-family: facto,
+sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: facto,
+sans-serif;
+font-weight: 800;
+font-style: normal;
+
+*/
